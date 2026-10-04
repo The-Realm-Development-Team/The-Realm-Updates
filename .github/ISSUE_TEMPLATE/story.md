@@ -25,9 +25,6 @@ draft PR to be reviewed. Autonomous PR review is limited to Ready for Review PRs
 Check the live GitHub draft state before starting a review; if it is draft or
 unknown, do not start without an explicit request. Opening a PR, pushing changes,
 assignment, CI results, or an earlier review is not permission to review a draft.
-Recheck the state before posting review findings; if it became draft, stop unless
-the draft review was specifically requested. Do not mark a PR ready to bypass this
-rule. AI review supports human review.
 
 WHERE TO VERIFY (when applicable)
 Website: browser workflow and permissions.
