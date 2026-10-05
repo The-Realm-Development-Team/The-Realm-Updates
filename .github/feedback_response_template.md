@@ -23,29 +23,18 @@ Website: browser workflow and permissions.
 Discord: test guild, allowed/denied roles and retries.
 Launcher: install, update, interrupted download and version compatibility.
 Game/server: approved debug environment, reconnect, concurrent players and persistence.
+Repository checks: see [AGENTS.md](../AGENTS.md) for the owning checks.
 If a required check cannot run, record why and who can unblock it.
 -->
 
-Responsible human: [name or Unassigned]
+Response: [Implemented / Partly implemented / Deferred / Disagree / Needs clarification;
+what changed or why; commit link if applicable; responsible human.]
 
-## Response
+Verification: [Environment and build; scenario and result; Passed / Failed / Not run /
+Not applicable; evidence link when available.]
 
-[Implemented / Partly implemented / Deferred / Disagree / Needs clarification]
+Remaining work: [Follow-up action and owner, or None.]
 
-## Resolution
-
-[What changed, or the concrete reason for the decision.]
-
-[Link the changed code or commit, if applicable.]
-
-## Verification
-
-[Environment and build; scenario; observed result; evidence.]
-
-Status: [Passed / Failed / Not run / Not applicable]
-
-## Remaining work
-
-[Linked follow-up issue, action and owner, or None.]
-
-<!-- Reply to each actionable request in its existing review thread. -->
+<!-- Reply to each actionable request in its existing review thread.
+Keep the reply to a few sentences; remove unused fields. Re-request review after
+pushing a correction, because approvals may be dismissed on a new commit. -->

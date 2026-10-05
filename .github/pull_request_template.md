@@ -23,6 +23,7 @@ Website: browser workflow and permissions.
 Discord: test guild, allowed/denied roles and retries.
 Launcher: install, update, interrupted download and version compatibility.
 Game/server: approved debug environment, reconnect, concurrent players and persistence.
+Repository checks: see [AGENTS.md](../AGENTS.md) for the owning checks.
 If a required check cannot run, record why and who can unblock it.
 -->
 
@@ -46,7 +47,7 @@ Responsible human: [name or Unassigned]
 
 Status: [Passed / Failed / Not run / Not applicable]
 
-Checked by: [human or agent; identify which]
+Checked by: [who ran each check]
 
 Evidence: [link to detailed results, if available]
 
@@ -64,4 +65,6 @@ Remaining gaps: [unverified behavior and reason, or None]
 
 ## Related work and release note
 
-[Full issue links; one user-facing sentence, if applicable. Otherwise None.]
+Related work: [Refs OWNER/REPO#N, or None. No Fixes or Closes until verified.]
+
+Release note: [One user-facing sentence, or None.]

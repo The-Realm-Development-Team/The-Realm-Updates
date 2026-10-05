@@ -23,6 +23,7 @@ Website: browser workflow and permissions.
 Discord: test guild, allowed/denied roles and retries.
 Launcher: install, update, interrupted download and version compatibility.
 Game/server: approved debug environment, reconnect, concurrent players and persistence.
+Repository checks: see [AGENTS.md](../AGENTS.md) for the owning checks.
 If a required check cannot run, record why and who can unblock it.
 -->
 
@@ -42,7 +43,10 @@ Responsible human: [name or Unassigned]
 
 [Location; trigger; consequence; requested change.]
 
-<!-- Repeat for each actionable finding. Say No actionable findings when there are none.
+<!-- Put blocking findings in inline comments at the changed lines.
+Keep each inline finding short and without section headings.
+Use this template for the overall review summary.
+Repeat for each actionable finding. Say No actionable findings when there are none.
 Distinguish observed behavior from source reasoning or an unconfirmed concern. -->
 
 ## Verification gaps
